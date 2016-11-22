@@ -203,10 +203,10 @@ resources:
             email_recovery_sender=clearwater@example.org
 
             # Keys
-            signup_key=secret
-            turn_workaround=secret
-            ellis_api_key=secret
-            ellis_cookie_key=secret
+            signup_key=12433
+            turn_workaround=12433
+            ellis_api_key=12433
+            ellis_cookie_key=12433
             EOF
             sudo /usr/share/clearwater/clearwater-config-manager/scripts/upload_shared_config
 
