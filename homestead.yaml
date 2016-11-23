@@ -102,7 +102,7 @@ parameters:
   zone:
     type: string
     description: DNS zone
-    default: example.com
+    default: itri.org.tw
   dns_mgmt_ip:
     type: string
     description: IP address for DNS server on management network

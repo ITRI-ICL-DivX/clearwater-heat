@@ -79,7 +79,7 @@ parameters:
   zone:
     type: string
     description: DNS zone
-    default: example.com
+    default: itri.org.tw
   dn_range_start:
     type: string
     description: First directory number in pool
