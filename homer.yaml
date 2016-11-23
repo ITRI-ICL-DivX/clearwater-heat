@@ -214,6 +214,9 @@ resources:
 
             # Also set up the signaling namespace now.
             /etc/init.d/signaling_namespace
+            
+            # Configure repository server to taiwan server to save time.
+            sed -i 's/http:\/\/us.archive.ubuntu.com\/ubuntu\//http:\/\/ubuntu.cs.nctu.edu.tw\/ubuntu\//g' /etc/apt/sources.list
 
             # Configure the APT software source.
             echo 'deb __repo_url__ binary/' > /etc/apt/sources.list.d/clearwater.list
